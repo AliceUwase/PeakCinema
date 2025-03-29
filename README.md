@@ -126,7 +126,7 @@ For questions, feedback, or collaboration opportunities, feel free to reach out 
 ## Acknowledge
 - [\[OMDb API\]](https://www.omdbapi.com/) for movie information
 - Visual Studio Code for code editing
-- [\[Claude AI\]](https://claude.ai/) for styling suggestions
+- [\[Claude AI\]](https://claude.ai/) for styling & README content suggestions
 
 ---
 
