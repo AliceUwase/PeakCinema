@@ -68,7 +68,7 @@ For questions, feedback, or collaboration opportunities, feel free to reach out 
 
 ## Acknowledge
 - [\[OMDb API\]](https://www.omdbapi.com/) for movie information
-- [\[Visual Studio Code\]] for code editing
+- Visual Studio Code for code editing
 
 ---
 
