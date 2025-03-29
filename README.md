@@ -1,5 +1,3 @@
-# PeakCinema
-
 ![PeakCinema Logo](logo.png)
 
 ## Description
