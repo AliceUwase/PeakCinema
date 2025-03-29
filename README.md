@@ -56,13 +56,15 @@ Your application should now be live and accessible!
 - **API**: OMDb API (Open Movie Database)
 - **Server**: Nginx (for hosting the application)
 
-## Demo
-[Watch Demo Video](link-to-demo-video)
+## Demo Links
+[Live Site](http://aliceuwase.tech/)
+[Demo Video](link-to-demo-video)
+[Github Repo](https://github.com/AliceUwase/PeakCinema.git)
 
 ## Contact Information
 For questions, feedback, or collaboration opportunities, feel free to reach out via:
-- [LinkedIn] : www.linkedin.com/in/alice-uwase-359334292
-- [GitHub] : https://github.com/AliceUwase
+- [LinkedIn](www.linkedin.com/in/alice-uwase-359334292)
+- [GitHub](https://github.com/AliceUwase)
 - Email: a.uwase3@alustudent.com
 
 ## Acknowledge
