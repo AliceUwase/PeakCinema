@@ -21,40 +21,96 @@ Your binge-watching headquarters! Find everything you need to know about any mov
 
 ## Deployment Instructions
 
-The application was deployed using the Nginx web server. Below are the steps followed:
+The application can be deployed using either the Haproxy or Nginx web server. Below are the steps for both:
+
+### Deployment with Haproxy
 
 1. **Initial Installation and Configuration**:
-    - Install and configure Nginx on your server.
+  - Install and configure Haproxy on your server.
 
 2. **Set Up the Project**:
-    - Navigate to `/var/www/html/`:
-      ```bash
-      cd /var/www/html/
-      ```
-    - Initialize the directory as a Git repository:
-      ```bash
-      git init
-      ```
-    - Set the origin to the repository:
-      ```bash
-      git remote add origin https://github.com/AliceUwase/PeakCinema.git
-      ```
-    - Pull the project from the repository:
-      ```bash
-      git pull origin main
-      ```
-3. **Restart Nginx**:
-    - Apply the changes by restarting Nginx:
-      ```bash
-      sudo systemctl restart nginx
-      ```
+  - Navigate to `/var/www/html/`:
+    ```bash
+    cd /var/www/html/
+    ```
+  - Initialize the directory as a Git repository:
+    ```bash
+    git init
+    ```
+  - Set the origin to the repository:
+    ```bash
+    git remote add origin https://github.com/AliceUwase/PeakCinema.git
+    ```
+  - Pull the project from the repository:
+    ```bash
+    git pull origin main
+    ```
+
+3. **Restart Haproxy**:
+  - Apply the changes by restarting Haproxy:
+    ```bash
+    sudo systemctl restart haproxy
+    ```
+
+Your application should now be live and accessible!
+
+---
+
+### Deployment with Nginx
+
+1. **Initial Installation and Configuration**:
+  - Install and configure Nginx on your server.
+
+2. **Set Up the Project**:
+  - Navigate to `/var/www/html/`:
+    ```bash
+    cd /var/www/html/
+    ```
+  - Initialize the directory as a Git repository:
+    ```bash
+    git init
+    ```
+  - Set the origin to the repository:
+    ```bash
+    git remote add origin https://github.com/AliceUwase/PeakCinema.git
+    ```
+  - Pull the project from the repository:
+    ```bash
+    git pull origin main
+    ```
+
+3. **Configure Nginx**:
+  - Open the Nginx configuration file:
+    ```bash
+    sudo nano /etc/nginx/sites-available/default
+    ```
+  - Update the server block to point to your project directory:
+    ```nginx
+    server {
+      listen 80;
+      server_name your-domain.com;
+
+      root /var/www/html;
+      index index.html;
+
+      location / {
+        try_files $uri $uri/ =404;
+      }
+    }
+    ```
+
+4. **Restart Nginx**:
+  - Apply the changes by restarting Nginx:
+    ```bash
+    sudo systemctl restart nginx
+    ```
 
 Your application should now be live and accessible!
 
 ## Technologies Used
 - **Frontend**: HTML, CSS, JavaScript
 - **API**: OMDb API (Open Movie Database)
-- **Server**: Nginx (for hosting the application)
+- **Server**: Haproxy (for hosting the application)
 
 ## Demo Links
 - [Live Site](http://aliceuwase.tech/) 
