@@ -66,7 +66,7 @@ For questions, feedback, or collaboration opportunities, feel free to reach out 
 - [GitHub] : https://github.com/AliceUwase
 - Email: a.uwase3@alustudent.com
 
-## Deployment Instructions
+## Acknowledge
 - [\[OMDb API\]](https://www.omdbapi.com/) for movie information
 
 ---
