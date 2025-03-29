@@ -57,9 +57,9 @@ Your application should now be live and accessible!
 - **Server**: Nginx (for hosting the application)
 
 ## Demo Links
-[Live Site](http://aliceuwase.tech/)
-[Demo Video](https://youtu.be/2EsL2S24z7I?si=ngmfE37HzSR8FHXu)
-[Github Repo](https://github.com/AliceUwase/PeakCinema.git)
+- [Live Site](http://aliceuwase.tech/) 
+- [Demo Video](https://youtu.be/2EsL2S24z7I?si=ngmfE37HzSR8FHXu)
+- [Github Repo](https://github.com/AliceUwase/PeakCinema.git)
 
 ## Contact Information
 For questions, feedback, or collaboration opportunities, feel free to reach out via:
