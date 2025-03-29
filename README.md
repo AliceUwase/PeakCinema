@@ -58,7 +58,7 @@ Your application should now be live and accessible!
 
 ## Demo Links
 [Live Site](http://aliceuwase.tech/)
-[Demo Video](link-to-demo-video)
+[Demo Video](https://youtu.be/2EsL2S24z7I?si=ngmfE37HzSR8FHXu)
 [Github Repo](https://github.com/AliceUwase/PeakCinema.git)
 
 ## Contact Information
