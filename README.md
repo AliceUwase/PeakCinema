@@ -1,7 +1,7 @@
 ![PeakCinema Logo](logo.png)
 
 ## Description
-Your binge-watching headquarters! Find everything you need to know about any movie in seconds. Explore titles, genres, casts, IMDb scores, release dates, and engaging summaries. The App uses [\[OMDb API\]](https://www.omdbapi.com/) to searh Any kind of Movie details
+Your binge-watching headquarters! Find everything you need to know about any movie in seconds. Explore titles, genres, casts, IMDb scores, release dates, and engaging summaries. The App uses [\[OMDb API\]](https://www.omdbapi.com/) to search Any kind of Movie details
 ## Features
 - **Comprehensive Movie Details**: Get all the essential information about your favorite movies.
 - **Instant Search & Results**: Quickly find what you're looking for without delays.
@@ -70,6 +70,7 @@ For questions, feedback, or collaboration opportunities, feel free to reach out 
 ## Acknowledge
 - [\[OMDb API\]](https://www.omdbapi.com/) for movie information
 - Visual Studio Code for code editing
+- [\[Claude AI\]](https://claude.ai/) for styling suggestions
 
 ---
 
